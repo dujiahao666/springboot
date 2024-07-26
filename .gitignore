@@ -1,0 +1,12 @@
+# 项目排除路径
+/boot3-01-demo/target/
+/boot3-04-web/target/
+/boot3-05-aop/target/
+/boot3-06-web/target/
+/boot3-07-exception/target/
+/boot3-08-ce/target/
+/boot3-09-ce/target/
+/boot3-010-ssm/target/
+/boot3-013-coreTest/target/
+/boot3-014-robot-starter/target/
+/boot03-012-fuxi/target/

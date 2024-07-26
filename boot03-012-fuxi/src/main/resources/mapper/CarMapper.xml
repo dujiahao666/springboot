@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.atguigu.boot3.fuxi.mapper.CarMapper">
+
+    <select id="selectAll" resultType="com.atguigu.boot3.fuxi.bean.TCar">
+        select * from t_car
+    </select>
+
+    <select id="selectOne" resultType="com.atguigu.boot3.fuxi.bean.TCar">
+        select * from t_car where id=#{id}
+    </select>
+
+
+    <select id="selectSome" resultType="com.atguigu.boot3.fuxi.bean.TCar">
+        select * from t_car
+        <where>
+            <if test="id!=null and id!='' ">
+                and id=#{id}
+            </if>
+            <if test="carNum!=null and carNum!='' ">
+                and car_num=#{carNum}
+            </if>
+            <if test="brand!=null and brand!='' ">
+                and brand=#{brand}
+            </if>
+            <if test="guidePrice!=null and guidePrice!='' ">
+                and guide_price=#{guidePrice}
+            </if>
+            <if test="prodeceTime!=null and produceTime!='' ">
+                and produce_time=#{produceTime}
+            </if>
+            <if test="carType!=null and carType!='' ">
+                and car_type=#{carType}
+            </if>
+        </where>
+    </select>
+</mapper>

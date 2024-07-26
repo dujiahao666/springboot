@@ -1,0 +1,4 @@
+org.springframework.boot.SpringApplicationRunListener=com.atguigu.boot.coretest.listener.MyAppListener
+
+#如果东西比较多，中间用 ， 分隔开
+org.springframework.context.ApplicationListener=com.atguigu.boot.coretest.listener.MyListener

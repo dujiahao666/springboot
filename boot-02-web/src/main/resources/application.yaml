@@ -1,0 +1,28 @@
+person:
+  name: >
+        我真
+        的 
+        爱你
+  age: 21
+  birth-day: 2003/10/14 21:21:09
+  like: true
+  child:
+    name: 孩子
+    age: 22
+    text:
+      - abc
+      - def
+  dogs:
+    - name: 金毛
+    - name: 边牧
+  cats:
+    c1:
+      name: 小猫
+    c2:
+      name: 小小猫
+  strs:
+    - 第一
+    - 第二
+    - 第三
+  sets[0]: 我真的
+  sets[1]: 裂开
