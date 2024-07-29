@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/boot3-013-coreTest/pom.xml" />
         <option value="$PROJECT_DIR$/boot3-014-robot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/boo3-015-test/pom.xml" />
+        <option value="$PROJECT_DIR$/boot3-fuxi-001/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -30,7 +31,6 @@
         <option value="$PROJECT_DIR$/spring-boot-001/pom.xml" />
       </set>
     </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

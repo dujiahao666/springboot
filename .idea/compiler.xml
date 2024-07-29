@@ -14,6 +14,7 @@
         <module name="boot3-06-web" />
         <module name="boot3-01-demo" />
         <module name="boo3-015-test" />
+        <module name="boot3-fuxi-001" />
         <module name="boot3-013-coreTest" />
         <module name="boot-02-web" />
         <module name="boot3-014-robot-starter" />
@@ -46,6 +47,7 @@
       <module name="boot3-07-exception" options="-parameters" />
       <module name="boot3-08-ce" options="-parameters" />
       <module name="boot3-09-ce" options="-parameters" />
+      <module name="boot3-fuxi-001" options="-parameters" />
     </option>
   </component>
 </project>
